@@ -1,0 +1,93 @@
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;  
+    background-image: url(./img/pictures_originals_2024_Nature___Clouds_Thick_white_clouds_in_the_sun_168991_.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 450px;
+    height: 452px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(35deg, #486f87 0%, #e9dbcb 100%);
+    opacity: 0.9;
+    border-radius: 40px;
+
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {    
+    font-family: "Sofadi One", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 340px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    padding-left: 20px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    background-color: transparent;
+    color: #fff;
+    font-size: 21px;
+}
+
+input::placeholder {
+    color: #dfdfdf;
+    font-size: 21px;
+
+}
+
+input:hover,
+input:focus-visible{
+    border-color: #eeff00;
+    transform: scale(1.08)
+}
+
+.name-div,
+.age-div,
+.colour-div {
+    margin-bottom:  20px;
+}
+
+.form-button {
+    font-size: 21px;
+    margin-left: 35%;
+    width: 120px;
+    min-height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: border-color 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #dfdfdf;
+    color: #dfdfdf;;
+}
+
+.form-button:hover,
+.form-button:focus {
+    transform: scale(1.08);
+    border-color: #eeff00;
+}
+
+
